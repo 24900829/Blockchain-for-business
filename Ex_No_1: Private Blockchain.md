@@ -1,12 +1,16 @@
+# EX.NO-1
+# CREATING A PRIVATE DATE: BLOCKCHAIN
+## AIM
+## Name: M. Sathyanarayanan 
+## Reg No: 212224040300
 
-EX.NO-1
-CREATING A PRIVATE DATE: BLOCKCHAIN
-AIM
-To create a Private Blockchain and to add nodes, create accounts, transfer Ether into it by creating
-and deploying Smart contract.
-PROCEDURE
+## To create a Private Blockchain and to add nodes, create accounts, transfer Ether into it by creating
+## and deploying Smart contract.
+
+### PROCEDURE
 
 ```
+
 1.Go to https //geth.ethereum.org/ and download the software for windows. While installing select
 both geth and development tools.
 2.To check whether the geth is installed ,run “geth” command in your command prompt.
@@ -23,7 +27,6 @@ To create account for two nodes
 cd node1
 geth --datadir "./data" account new
 Save the public address and password of node1 in info.txt.
-3
 7.Repeat the same procedures for node2
 cd ..
 cd node2
@@ -112,11 +115,16 @@ return name;
 }
 }
 ```
-OUTPUT
-# Deploying Transaction in Remix
-7
-# Contract Creation Output in Command Prompt
+## OUTPUT
+## Deploying Transaction in Remix
+
+<img width="1905" height="1036" alt="image" src="https://github.com/user-attachments/assets/c1efac24-ce72-4f18-acfa-979a1d3f62a6" />
+
+<img width="1912" height="1068" alt="image" src="https://github.com/user-attachments/assets/8f17ff61-18fc-47e3-9230-c0f43cb1032c" />
+
+## Contract Creation Output in Command Prompt
 <img width="1180" height="492" alt="image" src="https://github.com/user-attachments/assets/fc0eaa31-1340-4c3e-8410-3ca49a1f4dcd" />
 
-RESULT: Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
+## RESULT: 
+Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
 into it by creating and deploying Smart contract successfully
